@@ -39,7 +39,7 @@ Evaluate the following expressions:
     static splitString() {
       String a = str1.split(' ')[0]
       String b = str2.split(' ')[1]
-      return a + b
+      return a + ' ' + b
     }
 
     static main(args) {
