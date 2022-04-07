@@ -37,10 +37,9 @@ Evaluate the following expressions:
       return a + b
     }
     static splitString() {
-      String a = 'Groovy Language'
-      String[] str
-      str = a.split(' ')
-      return str
+      String a = str1.split(' ')[0]
+      String b = str2.split(' ')[1]
+      return a + b
     }
 
     static main(args) {
